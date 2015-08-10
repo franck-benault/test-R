@@ -1,11 +1,10 @@
-#performance
-max <- 5000000
-x <- rnorm(max)
-y <- rnorm(max)
-z <- rep(NA, max) #z is created empty but with a given size.
-system.time({
-  for (i in 1:max) {
-    z[i] <- x[i] + y[i]
-  }
-})
-system.time( k <- x + y )
+# mandatory the first time only
+#Install.packages("maps")
+library("maps")
+map("world", resolution=0)
+title("le monde")
+
+
+map("france")
+title("la France")
+?map
