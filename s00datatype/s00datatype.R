@@ -36,3 +36,16 @@ mymatrix[,2] # 2nd column of matrix
 mymatrix[1,] # 1st row of matrix
 mymatrix[1,1:2] # rows 1 of columns 1,2 
 
+############
+#Data Frames
+############
+d <- c(1,2,3,4)
+e <- c("red", "white", "red", NA)
+f <- c(TRUE,TRUE,TRUE,FALSE)
+g <- c(12,56,55,26)
+myframe <- data.frame(d,e,f,g)
+names(myframe) <- c("ID","Color","Passed","Age") # variable names
+#
+myframe[2:4] # columns 2,3,4 of data frame
+myframe[c("ID","Age")] # columns ID and Age from data frame
+myframe$Color # variable Color in the data frame 
