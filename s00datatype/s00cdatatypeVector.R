@@ -14,12 +14,23 @@ d[2]
 #is method
 is.vector(a) #return true
 #length method
+length(a) #return 6
 
 #######
 # names
 #######
-a <- c(1,6,5,3)
-
-
+a <- c(1,6,5)
+n <- c("Ford","Renault", "Fiat")
+names(a) <- n
+b <- c(Ford=1, Renault=6, Fiat=5)
 
 #str method = structure
+str(a)
+a
+b
+
+##############################
+# basic data types are vectors
+##############################
+basic <- 5
+is.vector(basic) #return true
