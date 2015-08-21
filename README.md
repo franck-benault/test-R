@@ -7,6 +7,10 @@ R is becoming a important language even it is a specialized language for analizi
 
 ## figures coming from in Google BigQuery
 
+In 2014 following Google BigQuery R was the 14th language in the public repositories in Github.
+R is of course far from the most important languages like Java or Ruby.
+But we can see that it is becoming widely used. 
+
 here is the request in Google BigQuery (please select the good year).
 ```
 SELECT repository_language, COUNT(*) as num_repositories
