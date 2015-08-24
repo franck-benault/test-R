@@ -34,3 +34,10 @@ b
 ##############################
 basic <- 5
 is.vector(basic) #return true
+
+###################
+# methods mean, sum
+###################
+v <- c(4,5,7,1,3) 
+mean(v) # 4 expected
+sum(v)  # 20 expected
