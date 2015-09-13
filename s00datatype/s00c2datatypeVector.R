@@ -1,6 +1,6 @@
-#########
-#Vectors
-#########
+###################
+# data type Vectors
+###################
 a <- c(1,2,5.3,6,-2,4) # numeric vector
 b <- c("one","two","three") # character vector
 c <- c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE) #logical vector

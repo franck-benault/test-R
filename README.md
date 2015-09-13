@@ -1,9 +1,10 @@
 # test-R
-sample of R usage
+sample of R language usage
 
 # Popularity of R
 
 R is becoming a important language even it is a specialized language for analizing data.
+
 
 ## figures coming from in Google BigQuery
 
