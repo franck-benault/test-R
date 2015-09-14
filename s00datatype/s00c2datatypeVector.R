@@ -1,6 +1,8 @@
 ###################
 # data type Vectors
-###################
+# one dimension
+# the elements in one vector have all the same type
+###################################################
 a <- c(1,2,5.3,6,-2,4) # numeric vector
 b <- c("one","two","three") # character vector
 c <- c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE) #logical vector
