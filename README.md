@@ -33,4 +33,4 @@ SELECT repository_language, COUNT(*) as num_repositories
 | 2012 | 25   | 5.626                     |   
 
 
-<img src="/img/badge1.svg" alt="alt text" width="100" height="100">
+<img src="/img/badge1.jpg" alt="alt text" width="100" height="100">
