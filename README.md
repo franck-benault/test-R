@@ -37,8 +37,8 @@ SELECT repository_language, COUNT(*) as num_repositories
 <img src="/img/badge1.jpg" alt="alt text" width="100" height="100">
 ## Vectors
 <img src="/img/badge2.jpg" alt="alt text" width="100" height="100">
-Sequence of data elements (one dimension)
-Same datatype 
+* Sequence of data elements (one dimension)
+* Same datatype 
 
 ## Matrics
 <img src="/img/badge3.jpg" alt="alt text" width="100" height="100">
