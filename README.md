@@ -1,4 +1,4 @@
-![légende](img/badge-1.svg)
+![légende](/img/badge-1.svg)
 
 # test-R
 sample of R language usage
