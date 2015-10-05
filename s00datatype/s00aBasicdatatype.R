@@ -3,11 +3,16 @@
 ##############
 v1 <- TRUE
 v2 <- FALSE
+
+#abreviation 
 v3 <- T
 v4 <- F
+
+#NA is logical
 v5 <- NA
 class(v5)
 is.logical(v5)
+
 v6 <- as.logical("FALSE")
 v6
 
