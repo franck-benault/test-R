@@ -1,6 +1,5 @@
-![légende](/img/badge1.jpg){:height="300px" width="300px"}
 
-<img src="/img/badge1.jpg" alt="alt text" width="50" height="50">
+
 
 # test-R
 sample of R language usage
@@ -32,3 +31,6 @@ SELECT repository_language, COUNT(*) as num_repositories
 | 2014 | 16   | 48.574                    |
 | 2013 | 24   | 7.867                     |
 | 2012 | 25   | 5.626                     |   
+
+
+<img src="/img/badge1.jpg" alt="alt text" width="100" height="100">
