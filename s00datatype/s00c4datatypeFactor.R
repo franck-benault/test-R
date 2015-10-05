@@ -3,6 +3,19 @@
 # factor list of limited values (categories)
 # like in java enumeration
 ############################################
+# example blood type
+blood <- c("A","B", "O", "AB","O", "A")
+blood_factor <- factor(blood)
+blood_factor
+#order of the levels alphabetical 
+str(blood_factor)
+table(blood_factor)
+
+#change the default levels order
+blood <- c("A","B", "O", "AB","O", "A")
+blood_factor <- factor(blood, levels = c("O","A","B","AB"))
+str(blood_factor)
+table(blood_factor)
 
 ###ordered factor
 speed_vector <- c("Fast", "Slow", "Slow", "Fast", "Ultra-fast") 
