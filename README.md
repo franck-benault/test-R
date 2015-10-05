@@ -1,6 +1,6 @@
 ![légende](/img/badge1.jpg){:height="300px" width="300px"}
 
-<img src="/img/badge1.jpg" alt="alt text" style="width: 30px; height: 30px">
+<img src="/img/badge1.jpg" alt="alt text" width="50" height="50">
 
 # test-R
 sample of R language usage
