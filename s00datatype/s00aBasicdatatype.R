@@ -27,16 +27,29 @@ v2 <- as.numeric("4.5")
 #########
 # Integer
 #########
+#2 is numeric, 2L is integer
 v1 <- 2L
 class(v1)
-is.integer(v1)
+#numeric is integer
+#but numeric is not always integer
+is.numeric(v1) #should return TRUE
+is.integer(v1) #should return TRUE too
 v2 <- as.integer("2")
 
+##########
+# Double
+##########
+
 ######################
-# others numeric types
-# double
-# complex ?
-######################
+# complex
+#####################
+z = 1 + 2i     # create a complex number
+class(z)       # print the class name of z 
+is.numeric(z)  # a complex is NOT a numeric
+
+sqrt(???1)       # square root of ???1 = NaN
+sqrt(???1+0i)    # square root of ???1+0i = i
+sqrt(as.complex(???1))  # = i
 
 ##########
 #Character
@@ -44,6 +57,14 @@ v2 <- as.integer("2")
 v1 <- "string"
 class(v1)
 is.character(v1)
+
+#Concatenation
+fname = "Joe"; lname ="Smith" 
+paste(fname, lname) #expected: "Joe Smith"
+
+# C language syntax.
+sprintf("%s has %d dollars", "Sam", 100) 
+
 
 ######################
 #Raw (store raw bytes)
