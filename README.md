@@ -1,4 +1,4 @@
-![légende](/img/badge1.jpg =300x300)
+![légende](/img/badge1.jpg){:height="300px" width="300px"}
 
 # test-R
 sample of R language usage
