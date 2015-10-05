@@ -32,5 +32,16 @@ SELECT repository_language, COUNT(*) as num_repositories
 | 2013 | 24   | 7.867                     |
 | 2012 | 25   | 5.626                     |   
 
-
+# R types
+## Basics
 <img src="/img/badge1.jpg" alt="alt text" width="100" height="100">
+## Vectors
+<img src="/img/badge2.jpg" alt="alt text" width="100" height="100">
+## Matrics
+<img src="/img/badge3.jpg" alt="alt text" width="100" height="100">
+## Factors
+<img src="/img/badge4.jpg" alt="alt text" width="100" height="100">
+## Lists
+<img src="/img/badge6.jpg" alt="alt text" width="100" height="100">
+## Dataframes
+<img src="/img/badge6.jpg" alt="alt text" width="100" height="100">
