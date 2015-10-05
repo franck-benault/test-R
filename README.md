@@ -1,5 +1,5 @@
-![légende](https://github.com/franck-benault/test-R/blob/master/img/badge-1.svg)
-<img src="https://github.com/franck-benault/test-R/blob/master/img/badge-1.svg">
+![légende](https://github.com/franck-benault/test-R/blob/master/img/badge1.jpg)
+<img src="https://github.com/franck-benault/test-R/blob/master/img/badge1.jpg">
 
 # test-R
 sample of R language usage
